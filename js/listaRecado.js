@@ -1,6 +1,6 @@
-axios.defaults.baseURL = 'https://pagina-recados-kley-back.herokuapp.com/';
+axios.defaults.baseURL = '';
 
-axios.get('/recados')
+axios.get('/users')
         .then(response => {
             response.data.forEach(item => {
                 lista.innerHTML += `${item.nome} <br/>`
