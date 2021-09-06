@@ -1,4 +1,4 @@
-axios.defaults.baseURL = '';
+axios.defaults.baseURL = './';
 
 axios.get('/users')
         .then(response => {
