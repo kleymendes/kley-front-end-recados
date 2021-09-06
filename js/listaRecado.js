@@ -1,4 +1,4 @@
-axios.defaults.baseURL = './';
+axios.defaults.baseURL = './https://lista-recados-kley-api.herokuapp.com/api/v2';
 
 axios.get('/users')
         .then(response => {
